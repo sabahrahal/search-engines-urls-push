@@ -1,0 +1,19 @@
+- name: search-engines-urls-push
+  # You may pin to the exact commit or the version.
+  # uses: 3Alan/search-engines-urls-push@517fdbb6b65a2fc73b688aba7d9060cd02d6fafe
+  uses: 3Alan/search-engines-urls-push@v0.2.3
+  with:
+    # your site url
+    site: 
+    # your sitemap url
+    sitemap: 
+    # push urls count
+    count: # optional
+    # baidu token
+    baidu-token: # optional
+    # bing token
+    bing-token: # optional
+    # google client email
+    google-client-email: # optional
+    # google private key
+    google-private-key: # optional
