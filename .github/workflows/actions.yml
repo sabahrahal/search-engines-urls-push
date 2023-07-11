@@ -1,4 +1,3 @@
-on: [push]
 name: search-engines-urls-push
 uses: 3Alan/search-engines-urls-push@v0.2.3
 with:
@@ -9,3 +8,5 @@ with:
   baidu-token: ${{ secrets.BAIDU_TOKEN }}
   google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
   google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+on: [push]
+
