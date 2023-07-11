@@ -1,19 +1,26 @@
-- name: search-engines-urls-push
-  # You may pin to the exact commit or the version.
-  # uses: 3Alan/search-engines-urls-push@517fdbb6b65a2fc73b688aba7d9060cd02d6fafe
-  uses: 3Alan/search-engines-urls-push@v0.2.3
-  with:
-    # your site url
-    site: 
-    # your sitemap url
-    sitemap: 
-    # push urls count
-    count: # optional
-    # baidu token
-    baidu-token: # optional
-    # bing token
-    bing-token: # optional
-    # google client email
-    google-client-email: # optional
-    # google private key
-    google-private-key: # optional
+name: 'search-engines-urls-push'
+author: 3Alan
+description: 'push your urls to search engines, support google,bing,baidu'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+inputs:
+  site: # id of input
+    description: 'your site url'
+    required: true
+  sitemap:
+    description: 'your sitemap url'
+    required: true
+  count:
+    description: 'push urls count'
+  baidu-token:
+    description: 'baidu token'
+  bing-token:
+    description: 'bing token'
+  google-client-email:
+    description: 'google client email'
+  google-private-key:
+    description: 'google private key'
+runs:
+  using: 'node16'
+  main: 'index.js'
