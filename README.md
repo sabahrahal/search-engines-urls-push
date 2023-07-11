@@ -1,6 +1,6 @@
 # search-engines-urls-push
 
-Use this Github Action to push your site urls to search engines(Google, Bing, Baidu)
+Use this Github Action to push your site urls to search engines(Google, Bing, Baidu).
 
 ## Supported Search Engines
 
