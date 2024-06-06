@@ -5,7 +5,7 @@ Use this Github Action to push your site urls to search engines(Google, Bing, Ba
 ## Supported Search Engines
 
 - Google
-- Bing
+- Bingg
 
 ## Example usage
 
