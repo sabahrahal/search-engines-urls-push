@@ -6,7 +6,6 @@ Use this Github Action to push your site urls to search engines(Google, Bing, Ba
 
 - Google
 - Bing
-- Baidu
 
 ## Example usage
 
